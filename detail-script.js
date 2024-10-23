@@ -11,7 +11,7 @@ window.onload = async () => {
 async function fetchMovieDetails(movieId) {
   try {
     const response = await fetch(
-      `https://movie-details-data.onrender.com/movie/${movieId}`
+      `https://bookmyshow-backend-rofa.onrender.com/movie/${movieId}`
     );
     const movie = await response.json();
 
